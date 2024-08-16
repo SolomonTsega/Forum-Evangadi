@@ -3,7 +3,7 @@ import axios from "axios";
 
 // Create an instance of axios
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:7500", // Update with your base URL
+  baseURL: "https://forum-evangadi-1.onrender.com", // Update with your base URL
 });
 
 // Request interceptor to include token in headers
