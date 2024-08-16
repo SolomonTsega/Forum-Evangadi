@@ -12,7 +12,7 @@ const answerRoutes = require("./routes/answerRoute");
 const questionRoutes = require("./routes/questionRoute");
 
 // JSON middleware to extract JSON data
-app.use(cors(cors));
+app.use(cors());
 app.use(express.json());
 // const corsOptions = {
 //   origin: "http://localhost:5173", // Replace with the allowed origin
